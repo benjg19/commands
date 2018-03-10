@@ -1,0 +1,85 @@
+
+Débuter avec Git et Github
+https://www.youtube.com/watch?v=V6Zo68uQPqE
+
+GIT - Ligne de commande principale 
+https://gist.github.com/aquelito/8596717
+
+Git identité:
+$ git config --global user.name "name firstname"
+$ git config --global user.email "john@mail.com"
+$ git config -1
+
+
+$ cd
+//
+
+$ mkdir
+// créer un dossier
+
+$ git init
+// initialiser un projet git
+
+$ git status
+// Status des fichiers
+
+git branch -a
+// Lister les branchs
+
+
+$ git commit -m "votre message"
+// commit
+
+$ git add .
+// selection des fichiers
+
+git log
+// visualiser tous les commit
+
+git remote add https://github.com/benjg19/test_ht1.git
+git push -u origin master
+
+git push origin gh-pages
+
+
+ git branch [NAME]
+ // créer une branche
+
+ git checkout [NAME]
+ // changer de branche
+
+git branch name_new_branch
+ git checkout -b new_branch old_branch
+ git checkout -b gh-pages master
+
+
+ git branch -d the_local_branch
+ git branch -D the_local_branch
+//SUPPRESSION DES BRANCHES GIT LOCALES
+
+ git push origin :nom_branche_distante
+//SUPPRESSION DES BRANCHES GIT DISTANTE
+
+git diff
+// montre les modifications apportés
+
+git diff [branch1]..[branch2]
+// differance entre 2 branches
+
+git log 
+// affiche les commit
+
+git branch
+// afficher les branches
+
+git checkout [nom de la branche]
+// selectionner une branche
+
+git merge [branch2]
+// merge le contenu de la branch2 vers la branch1
+
+
+
+
+
+
