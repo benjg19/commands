@@ -33,49 +33,60 @@ $ git commit -m "votre message"
 $ git add .
 // selection des fichiers
 
-git log
+$ git log
 // visualiser tous les commit
 
-git remote add https://github.com/benjg19/test_ht1.git
-git push -u origin master
 
-git push origin gh-pages
+$ git remote add origin https://github.com/benjg19/[repository.git]
+// connexion serveur github 
+
+$ git push -u origin master
+// pousser les données sur le serveur
+
+$ git pull origin [branch]
+// recupérer les données du serveur
+
+$ git pull remote [branch]
+// Generic command
+
+$ git push origin gh-pages
 
 
- git branch [NAME]
+
+$ git branch [NAME]
  // créer une branche
 
- git checkout [NAME]
+$ git checkout [NAME]
  // changer de branche
 
-git branch name_new_branch
+$ git branch name_new_branch
  git checkout -b new_branch old_branch
  git checkout -b gh-pages master
 
 
- git branch -d the_local_branch
- git branch -D the_local_branch
+$ git branch -d the_local_branch
+$ git branch -D the_local_branch
 //SUPPRESSION DES BRANCHES GIT LOCALES
 
- git push origin :nom_branche_distante
+$ git push origin :nom_branche_distante
 //SUPPRESSION DES BRANCHES GIT DISTANTE
 
-git diff
+$ git diff
 // montre les modifications apportés
 
-git diff [branch1]..[branch2]
+$ git diff [branch1]..[branch2]
 // differance entre 2 branches
 
-git log 
+$ git log 
 // affiche les commit
 
-git branch
+$ git branch
 // afficher les branches
 
-git checkout [nom de la branche]
+$ git checkout [nom de la branche]
 // selectionner une branche
 
-git merge [branch2]
+$ git merge [branch2]
 // merge le contenu de la branch2 vers la branch1
 
 
